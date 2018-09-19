@@ -1,5 +1,24 @@
 .img-container {
     float: left;
-    width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
-    padding: 5px; /* if you want space between the images */
+    width: 33.33%;
+    padding: 5px;
   }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (max-width: 980px) {
+    .container {
+      max-width: 980px;
+    }
+  }
+  
